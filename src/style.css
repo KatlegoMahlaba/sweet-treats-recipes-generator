@@ -1,6 +1,14 @@
+html {
+  background-image: url("https://t3.ftcdn.net/jpg/02/51/17/00/240_F_251170082_EvoNCQIHp1zW5K1efnHmW6cYebmAFeMJ.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
 body {
-  background-color: whitesmoke;
+  background-color: rgb(243, 239, 7);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.8;
+  max-width: 900px;
+  margin: 0 auto;
 }
 header {
   margin-bottom: 30px;
@@ -12,8 +20,11 @@ h1 {
   text-align: center;
 }
 .container {
-  margin: 120px auto;
+  margin: 250px auto;
   max-width: 800px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+  padding: 30px;
 }
 .form-container {
   padding: 30px;
