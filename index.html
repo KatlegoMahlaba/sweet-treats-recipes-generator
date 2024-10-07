@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Sweet Treat Recipe Generator</title>
   </head>
@@ -10,7 +11,7 @@
     <div class="container">
       <header><h1>AI Sweet Treat Recipe Generator</h1></header>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter name of the Sweet Treat recipe"
@@ -21,10 +22,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          Recipe will go here <br />
-          Recipe will go here
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by
